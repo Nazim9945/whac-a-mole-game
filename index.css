@@ -1,0 +1,31 @@
+*{
+    font-size: 1.5rem;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60vw;
+    /* height: 80vh; */
+   
+}
+.container{
+    display: grid;
+
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vh 20vh 20vh;
+}
+.mole{
+    background-image: url("https://freepngimg.com/thumb/categories/1130.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
